@@ -33,6 +33,23 @@ of tiling using 1#, and then deriving as a corollary Church's Theorem that satis
 logic is undecidable.
 
 ```{note}
-hello
+Most of the chapters in the book are Jupyter notebooks.
+(Some others are markdown files.)
+Rather than simply read, these chapters are intended to 
+be *run*. One way to use them is to save them and then run them locally.  Alternatively, one could open them 
+on a hosting service like CoCalc, Binder, or Google Colab. At the present time, I don't have buttons to run 
+it on CoCalc, and the best option is to run them on Colab.  For this, one starts by clicking on the button 
+at the top. 
 ```
+
+## Using the book
+
+There are a number of ways the book could be used in courses for students in several disciplines.  For computer science students,
+the subject is often taught as an end-of-semester topic in a theory course.  For this, one would need to select the topics
+judiciously and skip some of the beginning material. The book does not currently have much on complexity theory, but this might
+change. For mathematics courses aiming at undecidability results in logic, the book has a fair amount of advanced material, leading
+up to Church's Theorem on the undecidability of first-order logic.  Overall, there is more than enough material for a course. At the
+same time, the topic of computability has many connections and developments, far too many for an "invitation" book. Instructors
+might prefer to use this book for some of their courses and to provide other material as well.
+
 
