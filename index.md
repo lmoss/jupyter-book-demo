@@ -32,4 +32,7 @@ explicit than most treatments.  At the same time, it enables one to go further, 
 of tiling using 1#, and then deriving as a corollary Church's Theorem that satisfiability in first-order 
 logic is undecidable.
 
+```{note}
+hello
+```
 
