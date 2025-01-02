@@ -7,8 +7,10 @@ chapters:
   - file: book/markdown
   - file: book/notebooks
   - file: book/bibliography
+  - file: book/move_copy_write
   - file: book/haltDef
-
+  - file: book/functions
+  - file: book/tidy
 # Or you organize the TOC by parts
 
 # parts:
