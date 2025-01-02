@@ -5,11 +5,10 @@
 
 #######################################################################################
 # Book settings
-title: Jupyter Book Demo # The title of the book. Will be placed in the left navbar.
-author: Lawrence S. Moss # The author of the book
+title: Invitation to Computability # The title of the book. Will be placed in the left navbar.
+author: Larry Moss # The author of the book
 copyright: "2025" # Copyright year to be placed in the footer
-logo: /Users/lsm/Dropbox/invitationBook/lmoss.github.io/booksource/logo.png 
-  #  beaver.png # A path to the book logo, it had been logo.png
+logo: logo.png # A path to the book logo
 # Patterns to skip when building the book. Can be glob-style (e.g. "*skip.ipynb")
 exclude_patterns: [_build, Thumbs.db, .DS_Store, "**.ipynb_checkpoints"]
 # Auto-exclude files not in the toc
@@ -32,12 +31,10 @@ launch_buttons:
   colab_url: "https://colab.research.google.com"
   notebook_interface: "jupyterlab"
   binderhub_url: "https://mybinder.org"
-  thebe: true
-  branch: main
 
 # Information about where the book exists on the web
 repository:
-  url: https://github.com/giswqs/jupyter-book-demo # Online location of your book
+  url: https://github.com/lmoss/invitation-to-computability # Online location of your book
   # path_to_book: docs # Optional path to your book, relative to the repository root
   branch: main # Which branch of the repository should be used when creating links (optional)
 
@@ -45,20 +42,20 @@ repository:
 # See https://jupyterbook.org/customize/config.html#add-a-link-to-your-repository
 html:
   favicon: "fav.ico"
-  baseurl: https://giswqs.github.io/jupyter-book-demo # The base URL where your book will be hosted.
+  baseurl: https://lmoss.github.io/invitation-to-computability # The base URL where your book will be hosted.
   use_repository_button: true
   use_issues_button: true
   use_edit_page_button: true
-  use_download_button: true # google_analytics_id: G-XXXXXXX
-  thebe: true # Enable Thebe
+  use_download_button: true
+  # thebe: true
+  # google_analytics_id: G-XXXXXXX
 
 sphinx:
   config:
     # html_extra_path: ["CNAME", "robots.txt"]
     html_theme_options:
       use_download_button: true
-      repository_url: https://github.com/giswqs/jupyter-book-demo
-      repository_branch: main # Specify the correct branch for theme options
+      repository_url: https://github.com/lmoss/invitation-to-computability
       use_issues_button: true
       use_repository_button: true
       use_edit_page_button: true
@@ -66,14 +63,15 @@ sphinx:
         {
           binderhub_url: "https://mybinder.org",
           colab_url: "https://colab.research.google.com",
-          thebe: true,
         }
     bibtex_reference_style: author_year
+
 
 # Define the name of the latex output file for PDF builds
 # latex:
 #   latex_documents:
 #     targetname: book.tex
+
 
 # Add a bibtex file so that we can create citations
 bibtex_bibfiles:
