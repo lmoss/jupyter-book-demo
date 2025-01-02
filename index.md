@@ -7,7 +7,7 @@ at Indiana University for quite a few years.  In some way, the content is standa
 not. It treats the basic topics of the subject: the concept of computability, primitive recursion, 
 mu-recursion, universal functions, the Enumeration Theorem, the Recursion Theorem, and undecidability in 
 computability theory, mathematics, and logic.  Of course we are living decades past the original proofs of 
-these results, and so the presentation here will differ, and we will try to make pointers to many of the 
+these results, and so the presentation here will differ, and this book will try to make pointers to many of the 
 developments in computability theory and computer science that have come from the clasical material.
 
 We are also living in the wake of several revolutions in society coming from the advent of computers and the 
