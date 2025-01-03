@@ -4,9 +4,10 @@
 format: jb-book
 root: index
 chapters:
-  - file: book/markdown
-  - file: book/notebooks
-  - file: book/bibliography
+#  - file: book/markdown
+#  - file: book/notebooks
+#  - file: book/bibliograph
+  - file: book/instructions
   - file: book/move_copy_write
   - file: book/haltDef
   - file: book/functions
